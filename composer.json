@@ -1,0 +1,12 @@
+{
+    "name": "emir/extended-tools",
+    "authors": [
+        {
+            "name": "Emir Buğra KÖKSALAN",
+            "email": "kodmanyagha@gmail.com"
+        }
+    ],
+    "require": {
+		"facebook/graph-sdk" : "~5.0"
+    }
+}

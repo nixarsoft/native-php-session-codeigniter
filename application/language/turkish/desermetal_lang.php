@@ -1,0 +1,4 @@
+<?php
+
+$lang['mainpage'] = "Anasayfa";
+
