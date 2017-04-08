@@ -4,16 +4,16 @@ session_start();
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-define('FB_APP_ID', 'id');
-define('FB_APP_SECRET', 'key');
+define('FB_APP_ID', '1817685791888378');
+define('FB_APP_SECRET', '32dad3133492a17a076296c30914fd7a');
 
 class DBConfig {
   public $db;
 
   function DBConfig() {
     $db['default']['hostname'] = 'localhost';
-    $db['default']['username'] = 'user';
-    $db['default']['password'] = 'pw';
+    $db['default']['username'] = 'root';
+    $db['default']['password'] = '123456';
     $db['default']['database'] = 'kdm_panel';
     $db['default']['dbdriver'] = 'mysqli';
     $db['default']['dbprefix'] = '';
